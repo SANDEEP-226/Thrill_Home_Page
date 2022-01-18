@@ -1,0 +1,32 @@
+.item {
+  /* position: relative; */
+  display: flex;
+  padding: 15px 50px;
+  /* width: 60px; */
+  align-items: center;
+  justify-content: center;
+  padding: 10px 3px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.item:hover {
+  transform: scale(1.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+}
+.Details {
+  width: 100px;
+  padding: 0 10px;
+}
+.PlaceName {
+  font-weight: bold;
+}
+.img {
+  /* position: absolute; */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.cost {
+  font-size: 13px;
+}

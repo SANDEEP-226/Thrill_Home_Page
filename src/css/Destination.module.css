@@ -1,0 +1,11 @@
+.Destination {
+  /* margin: 0 20%; */
+
+  align-items: center;
+  justify-content: center;
+}
+.Destination_Header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
